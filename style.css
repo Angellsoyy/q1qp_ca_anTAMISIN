@@ -1,0 +1,201 @@
+.navbar{
+    height: 15vh; /* Sets height */
+    background-color: #FF8ACB; /* Sets background color */
+}
+.navbar img{
+    height: 10vh;
+    margin-top: 2vh; /*Adds a margin */
+}
+.navbar a{
+    font-size: 4vh; /*Sets the font size */
+    font-weight: bold;
+    text-decoration: none;
+    color: white; /* Sets text color */
+    float: right;
+}
+#navbarlinks{
+    font-size: 3vh;
+    /* Decides the font of the text */ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right; /* Moves item to the right */
+    margin-right: 3vw;
+    margin-top: 5vh;
+}
+.backdrop{
+    background-image: radial-gradient(#fff7ad,#ffa9f9); /* Makes the background image a gradial imagent */
+    height: 73vh; 
+    padding-top: 1vh; /* Adds padding */
+}
+.backdrop img{
+    height: 45vh;
+    margin-left: 30%;
+    border: 10px solid rgb(247, 90, 148); /* Sets a border */
+    border-radius: 2%; /* Curves the border edges */
+
+}
+.backdrop h1{
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic; /* Italicizes the text */
+    color: rgb(255, 0, 93);
+    text-align: center; /* Aligns text towards the center */
+}
+.backdrop a{
+    margin-left: 30vw;
+    text-decoration: none; /* Removes text-decoration (ex. line underneath) */
+    color: white;
+}
+.footer{
+    height: 10vh;
+    background-color: #FF8ACB;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: sans-serif;
+}
+.footer a img{
+    height: 7vh;
+    float: left; /* Moves item to the lefet */
+    margin-top: 1vh;
+}
+.footer p{
+    font-size: larger; /* Sets the font size */
+    font-style: italic;
+    margin-top: 3vh;
+    float: right;
+    color: rgb(255, 0, 93);
+}
+.backdrop2{
+    background-image: radial-gradient(#fff7ad,#ffa9f9);
+    height: 73vh; 
+    padding-top: 1vh;
+}
+.backdrop2 h{
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2vw;
+    color:  rgb(255, 0, 93);
+}
+#ques1{
+    border: 1px solid black;
+    border-style: none;
+    text-align: justify;
+    width: 40vw;
+    font-size: 3vh;
+    margin-left: 5vw;
+    float: left;
+    color: rgb(255, 0, 93);
+}
+#ques2{
+    border: 1px solid black;
+    border-style: none;
+    text-align: justify; /* Justifies the text */
+    float: right;
+    width: 40vw; /* Sets the width of the item */
+    font-size: 3vh;
+    margin-right: 10vw;
+    color: rgb(255, 0, 93);
+}
+.backdrop3{
+    background-image: radial-gradient(#fff7ad,#ffa9f9);
+    height: 73vh; 
+}
+.backdrop3 h{
+    font-size: 10vh;
+    font-style: italic;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3vw;
+    color: rgb(255, 0, 93);
+}
+.backdrop3 p{
+    border: 1px none black;
+    width: 32vw;
+    text-align: justify;
+    font-size: 3vh;
+    margin-left: 2vw;
+    margin-top: -.5vh;
+    color: rgb(255, 0, 93);
+}
+.backdrop3 img{
+    border: 1px none;
+    float: right;
+    height: 50vh;
+    margin-top: -53vh;
+    border: 1px none solid;
+}
+#img2{
+    margin-right: 35vw;
+}
+#img1{
+    margin-right: 10vw;
+}
+.backdrop4{
+    background-image: radial-gradient(#fff7ad,#ffa9f9);
+    height: 73vh; 
+    padding-top: 1vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.backdrop4 h{
+    font-size: 10vh;
+    margin-left: 3vw;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 0, 93);
+}
+#ref1 p{
+    border: 1px none;
+    width: 35vw;
+    font-size: 3vh;
+    text-align: justify;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 2px;
+    color: rgb(255, 0, 93);
+}
+#ref2 p{
+    border: 1px none;
+    width: 30vw;
+    font-size: 3vh;
+    text-align: justify;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 2px;
+    color: rgb(255, 0, 93);
+}
+.backdrop5{
+    background-image: radial-gradient(#fff7ad,#ffa9f9);
+    height: 73vh; 
+    padding-top: 1vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.backdrop5 img{
+    height: 50vh;
+    float: left;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    padding-right: 2vw;
+}
+.backdrop5 h{
+    font-size: 10vh;
+    margin-left: -23vw;
+    color: rgb(255, 0, 93);
+    font-style: italic;
+    font-weight: bold; /* Decides the font-weight, in this case it boldens the text */
+}
+#aboutme p{
+    font-size: 3vh;
+    text-align: justify;
+    margin-right: 30vw;
+    color: rgb(255, 0, 93);
+}
+@font-face {
+    font-family: vague;
+    src: url(fonts/VaguelyRetroRegular-3zAqM.ttf);
+}
+@font-face {
+    font-family: simple;
+    src: url(Blow-p7Z1K.ttf);
+}
+
+/* @font-face lets you import outside font */
